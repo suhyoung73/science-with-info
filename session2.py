@@ -1,6 +1,5 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-import koreanize_matplotlib
 from matplotlib.colors import to_rgba
 import numpy as np
 from datetime import datetime
@@ -59,10 +58,10 @@ def run():
     # 대기 시뮬레이션 결과 시각화
     fig, ax = plt.subplots(1, 2, figsize=(6, 3))
     fig.subplots_adjust(wspace=0.5)
-    ax[0].bar(["광량"], [light_reduction * 100], color=light_color)
+    ax[0].bar(["light"], [light_reduction * 100], color=light_color)
     ax[0].set_ylim(0, 100)
-    ax[0].set_ylabel("변화율 (%) 또는 (°C)")
-    ax[1].bar(["평균 기온"], [temperature_change], color=temperature_color)
+    ax[0].set_ylabel("(%) OR (°C)")
+    ax[1].bar(["temperature"], [temperature_change], color=temperature_color)
     ax[1].set_ylim(-2, 0)
     st.pyplot(fig)
     st.write("")
@@ -109,8 +108,8 @@ def run():
 
     # 생태계 시뮬레이션 결과 시각화
     fig, ax = plt.subplots(figsize=(6, 4))
-    ax.bar(["동물 생존율", "식물 생존율"], [animal, plant], color=["brown", "green"], alpha=0.7)
-    ax.set_ylabel("생존율 (%)")
+    ax.bar(["animal survival", "plant survival"], [animal, plant], color=["brown", "green"], alpha=0.7)
+    ax.set_ylabel("(%)")
     ax.set_ylim(0, 100)
     st.pyplot(fig)
     st.write("")
