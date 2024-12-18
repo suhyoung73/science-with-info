@@ -186,12 +186,12 @@ for a in range(       ):
     
     # animal이라는 변수를 만들고 적절한 함수를 호출해서 "동물 생존율" 값을 저장하세요
     
-    # light라는 변수를 만들고 적절한 함수를 호출해서 "식물 생존율" 값을 저장하세요
+    # plant라는 변수를 만들고 적절한 함수를 호출해서 "식물 생존율" 값을 저장하세요
 
     st.write(f"화산재 농도: {a} → 광량: {light:.2f}, 기온: {temp:.2f}, 동물 생존율: {animal:.2f}, 식물 생존율: {plant:.2f}")
     """
     result2 = st.text_area(label = "실행 결과: ", value = result, height = 150)
-    answer2 = st.text_area(label = "코드: ", value = default_code, height = 400)
+    answer2 = st.text_area(label = "코드: ", value = default_code, height = 800)
     if st.button("코드 실행"):
         try:
             exec(answer2)
