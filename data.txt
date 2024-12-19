@@ -1,0 +1,6 @@
+1. volcanoes around the world in 2021 : https://www.kaggle.com/datasets/ramjasmaurya/volcanoes-on-earth-in-2021
+2. tectonic plate boundaries : https://www.kaggle.com/code/karnikakapoor/earthquakes-and-tectonic-plates-seismic-analysis
+3. 기상청 화산재 정보 : https://www.data.go.kr/data/15136691/fileData.do
+4. 기상청 온라인 지진 과학관 : https://www.kma.go.kr/eqk_pub/obsrVolcano.do
+5. 국립 기상 과학원 - 화산은 기후변화에 어떤 영향을 미치는가? : http://www.nims.go.kr/?sub_num=849
+6. 동아사이언스 - 화산폭발하면 식량 생산성 줄어든다 : https://m.dongascience.com/news.php?idx=23541
